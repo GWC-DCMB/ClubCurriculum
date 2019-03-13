@@ -36,5 +36,5 @@ Topics covered are as follows:
   - Lesson 18: Intro to Matplotlib
   - Lesson 19: Scatter Plots and Line Graphs
   - Lesson 20: Histograms and Bar Charts
-  - Lesson 21: Improving Plots I (coloring)
+  - Lesson 21: Improving Plots I (Coloring)
   - Lesson 22: Improving Plots II (Labeling)
