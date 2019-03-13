@@ -18,21 +18,21 @@ Topics covered are as follows:
   - Lesson 06: Intro to 2D Lists
   - Lesson 07: 2D List Indexing and Subsetting
   
-# Day Two
+## Day Two
   - Lesson 08: Intro to Functions and Methods
   - Lesson 09: Intro to Packages
   - Lesson 10: Intro to Pandas
   - Lesson 11: Reading in Data with Pandas
   - Lesson 12: Slicing and Dicing DataFrames with Pandas
   
-# Day Three
+## Day Three
   - Lesson 13: Intro to Numpy
   - Lesson 14: Moving from Pandas to Numpy
   - Lesson 15: Basic Stats I (Mean, Median, etc.)
   - Lesson 16: Basic Stats II (Count statistics, Percentages)
   - Lesson 17: Basic Stats III (Significance Testing)
   
-# Day Four
+## Day Four
   - Lesson 18: Intro to Matplotlib
   - Lesson 19: Scatter Plots and Line Graphs
   - Lesson 20: Histograms and Bar Charts
