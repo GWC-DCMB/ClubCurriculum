@@ -27,7 +27,7 @@ Topics covered are as follows:
   
 ## Day Three
   - Lesson 13: Intro to Numpy
-  - Lesson 14: Moving from Pandas to Numpy
+  - ~Lesson 14: Moving from Pandas to Numpy~
   - Lesson 15: Basic Stats I (Mean, Median, etc.)
   - Lesson 16: Basic Stats II (Count statistics, Percentages)
   - Lesson 17: Basic Stats III (Significance Testing)
