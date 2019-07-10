@@ -27,14 +27,13 @@ Topics covered are as follows:
   
 ## Day Three
   - Lesson 13: Intro to Numpy
-  - ~Lesson 14: Moving from Pandas to Numpy~
-  - Lesson 15: Basic Stats I (Mean, Median, etc.)
-  - Lesson 16: Basic Stats II (Count statistics, Percentages)
-  - Lesson 17: Basic Stats III (Significance Testing)
+  - Lesson 14: Basic Stats I (Mean, Median, etc.)
+  - Lesson 15: Basic Stats II (Count statistics, Percentages)
+  - Lesson 16: Basic Stats III (Significance Testing, Correlations)
   
 ## Day Four
-  - Lesson 18: Intro to Matplotlib
-  - Lesson 19: Scatter Plots and Line Graphs
-  - Lesson 20: Histograms and Bar Charts
-  - Lesson 21: Improving Plots I (Coloring)
-  - Lesson 22: Improving Plots II (Labeling)
+  - Lesson 17: Intro to Matplotlib
+  - Lesson 18: Scatterplots and Line Graphs
+  - Lesson 19: Histograms and Bar Charts
+  - Lesson 20: Improving Plots I - Scatterplots and Line Graphs
+  - Lesson 21: Improving Plots II - Bar Charts, Count Plots & Boxplots
