@@ -15,7 +15,7 @@ jobs:
           name: compile PDFs 
           command: |
               jupyter nbconvert --to pdf --output-dir='Lessons/Keys/pdf' Lessons/Keys/*.ipynb
-              jupyter nbconvert --to pdf --output-dir='Lessons/Practices/pdf' Lessons/Practices/*.ipynb
+              jupyter nbconvert --to pdf --output-dir='Practices/Keys/pdf' Practices/Keys/*.ipynb
               git config user.email "kellysovacool@gmail.com"
               git config user.name "Kelly Sovacool"
               git add Lessons/Keys/pdf Lessons/Practices/pdf
