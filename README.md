@@ -40,4 +40,4 @@ Topics covered are as follows:
 
 # Important Links
 - [Entrance survey](https://forms.gle/gXLj62T7bEMFipdv7)
-- [Starter Activities] (https://docs.google.com/presentation/d/1ZxkFTjXVx5EyF-P2CG3gV0U3dUskxzWrQPV9D9oA1Og/edit?usp=sharing)
+- [Starter Activities](https://docs.google.com/presentation/d/1ZxkFTjXVx5EyF-P2CG3gV0U3dUskxzWrQPV9D9oA1Og/edit?usp=sharing)
