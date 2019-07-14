@@ -37,3 +37,6 @@ Topics covered are as follows:
   - Lesson 19: Histograms and Bar Charts
   - Lesson 20: Improving Plots I - Scatterplots and Line Graphs
   - Lesson 21: Improving Plots II - Bar Charts, Count Plots & Boxplots
+
+# Important Links
+- [Entrance survey](https://forms.gle/gXLj62T7bEMFipdv7)
