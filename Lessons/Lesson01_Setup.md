@@ -23,7 +23,3 @@
 
 Congrats, you're ready to start coding!
 
-
-```python
-
-```
