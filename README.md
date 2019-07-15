@@ -10,7 +10,7 @@ Both Lessons and Practices directories contain Keys subdirectories that contain 
 
 Topics covered are as follows:
 ## Day One
-  - Lesson 01: Intro to Python and Jupyter Notebook
+  - [Lesson 01: Intro to Python and Jupyter Notebook](Lessons/Lesson01_Setup.ipynb) (Don't open this one in Google Colab; just view it on GitHub)
   - Lesson 02: Hello World and Intro to Variables
   - Lesson 03: More Variables and Types
   - Lesson 04: Intro to Lists
