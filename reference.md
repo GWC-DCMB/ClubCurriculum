@@ -52,10 +52,13 @@
 
 ### Lesson10_Pandas-Intro
 
+* How to import the `pandas` package with the nickname `pd`.
+* How to use `DataFrames`.
+* How to see the beginning & end of a `DataFrame` with the functions `head` & `tail`.
 
 ### Lesson11_Pandas-Reading
 
-* How to read datasets into `pandas` `DataFrames`.
+* How to read datasets from files into `pandas` `DataFrames`.
 * The `index` and `columns` `attributes` of `DataFrames`.
 * How to find the number of rows, columns, and number of data points in a `DataFrame`.
 
