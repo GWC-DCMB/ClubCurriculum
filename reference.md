@@ -1,13 +1,18 @@
+# Reference Sheet
+
+## Day 1
+
 ### Lesson02_HelloWorld_Variables
 
-* Use built-in Python functions (print)
+* Use built-in Python functions (`print`)
 * Use mathematical operators to perform calculations (+ - * /)
 * Assign values to variables
 * Use variables in mathematical equations
 
 ### Lesson03_Variables_Types
 
-Now you're an expert in the basic Python data types: `int`, `float`, `string`, and `bool`!
+* The `type` function.
+* Learn about the basic Python data types: `int`, `float`, `string`, and `bool`
 
 ### Lesson04_Lists_Intro
 
@@ -28,6 +33,8 @@ Now you're an expert in the basic Python data types: `int`, `float`, `string`, a
 ### Lesson07_2D_Lists_Indexing
 
 * How to index 2D lists
+
+## Day 2
 
 ### Lesson08_Functions_and_Methods
 
@@ -58,6 +65,8 @@ Now you're an expert in the basic Python data types: `int`, `float`, `string`, a
 * How to use `iloc` and square brackets at the same time.
 * How to use `query` to find rows where the column has a certain value.
 
+## Day 3
+
 ### Lesson13_Numpy_Intro
 
 In this lesson you learned how to:
@@ -87,6 +96,8 @@ In this lesson you learned how to:
 * Adding labels and a title to a plot
 * Adding markers to a line graph
 * Changing the color of a line graph
+
+## Day 4
 
 ### Lesson18_LineGraph_ScatterPlot
 
