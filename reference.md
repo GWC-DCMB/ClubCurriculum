@@ -47,8 +47,11 @@
 
 ### Lesson09_Packages
 
-* How to import new functions in packages in Python.
-* More functions and methods.
+* How to import new functions in packages in Python, such as `numpy`.
+* More functions and methods:
+    * `mean` (in `numpy`)
+    * `abs` (in `numpy`)
+    * `sort`
 
 ### Lesson10_Pandas-Intro
 
