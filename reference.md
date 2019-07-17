@@ -95,14 +95,14 @@
 * Interpret the results (`pvalue`) from a t-test.
 * Compute correlations for multiple variables using `corrcoef` from `scipy.stats`.
 
+## Day 4
+
 ### Lesson17_Matplotlib_Intro
 
 * Using **matplotlib** to communicate your data using **line graph** plots.
 * Adding labels and a title to a plot.
 * Adding markers to a line graph.
 * Changing the color of a line graph.
-
-## Day 4
 
 ### Lesson18_LineGraph_ScatterPlot
 
