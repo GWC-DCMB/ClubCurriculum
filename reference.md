@@ -76,14 +76,13 @@
 
 ### Lesson13_Numpy_Intro
 
-* Load `numpy` into Python.
 * Create an `array` with `numpy`.
 * Perform math with `numpy` arrays.
 
 ### Lesson14_Basic_Stats_I
 
 * Calculate the mean of a set of values manually.
-* Use functions in `numpy` to calculate both the mean and median.
+* Use functions in `numpy` to calculate both the `mean` and `median`.
 
 ### Lesson15_Basic_Stats_II
 
@@ -92,9 +91,9 @@
 
 ### Lesson16_Basics_Stats_III
 
-* Perform a `t-test` on a two-class dataset.
-* Interpret the results from statistical tests.
-* Compute correlations for multiple variables.
+* Perform a t-test on a two-class dataset using `ttest_ind` from `scipy.stats`.
+* Interpret the results (`pvalue`) from a t-test.
+* Compute correlations for multiple variables using `corrcoef` from `scipy.stats`.
 
 ### Lesson17_Matplotlib_Intro
 
