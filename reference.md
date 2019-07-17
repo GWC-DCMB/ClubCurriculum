@@ -86,7 +86,7 @@
 
 ### Lesson15_Basic_Stats_II
 
-* Calculate count statistics using data from `pandas`.
+* Calculate count statistics using `collections.Counter`.
 * Calculate percentages from count statistics.
 
 ### Lesson16_Basics_Stats_III
