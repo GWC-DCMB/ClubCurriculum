@@ -38,6 +38,8 @@ Topics covered are as follows:
   - Lesson 20: Improving Plots I - Scatterplots and Line Graphs
   - Lesson 21: Improving Plots II - Bar Charts, Count Plots & Boxplots
 
+Curriculum designed and revised by Marlena Duda. Lessons created by Kelly Sovacool, Zena Lapp, Logan Walker, and Negar Faranzeh. 
+
 # Important Links
 - [Entrance survey](https://forms.gle/gXLj62T7bEMFipdv7)
 - [Starter Activities](https://docs.google.com/presentation/d/1ZxkFTjXVx5EyF-P2CG3gV0U3dUskxzWrQPV9D9oA1Og/edit?usp=sharing)
