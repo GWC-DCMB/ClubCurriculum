@@ -32,13 +32,13 @@ Topics covered are as follows:
   - Lesson 16: Basic Stats III (Significance Testing, Correlations)
   
 ## Day Four
-  - Lesson 17: Intro to Matplotlib
+  - <del>Lesson 17: Intro to Matplotlib<\del>
   - Lesson 18: Scatterplots and Line Graphs
   - Lesson 19: Histograms and Bar Charts
   - Lesson 20: Improving Plots I - Scatterplots and Line Graphs
   - Lesson 21: Improving Plots II - Bar Charts, Count Plots & Boxplots
 
-Curriculum designed and revised by Marlena Duda. Lessons created by Kelly Sovacool, Zena Lapp, Logan Walker, and Negar Faranzeh. 
+Curriculum designed and revised by Marlena Duda. Lessons created by Marlena Duda, Kelly Sovacool, Zena Lapp, Logan Walker, and Negar Faranzeh. 
 
 # Important Links
 - [Entrance survey](https://forms.gle/gXLj62T7bEMFipdv7)
