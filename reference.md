@@ -97,27 +97,22 @@
 
 ## Day 4
 
-### Lesson17_Matplotlib_Intro
+### Lesson17B_LineGraphs
 
-* Using **matplotlib** to communicate your data using **line graph** plots.
-* Adding labels and a title to a plot.
-* Adding markers to a line graph.
-* Changing the color of a line graph.
+* Use the `seaborn` package with the nickname `sns`.
+* Load built-in datasets from `seaborn` with the `load_dataset` function.
+* Create a line plot with the `lineplot` function from `seaborn`.
+* Change the `hue` and `style` of lines based on categorical variables.
 
-### Lesson18_LineGraph_ScatterPlot
+### Lesson18B_Scatterplots
 
-* Improve a line graph plot by overlaying multiple lines.
-* Add legends to the plot.
-* When to use a scatter plot rather than a line graph.
-* Generate a scatter plot.
+* Create a scatter plot with the `scatterplot` function from `seaborn`.
+* Create a scatter plot with a line-of-best-fit with the `lmplot` function from `seaborn`.
+* Change the `hue`, `style`, and `palette` of a plot.
 
-### Lesson19_Histograms_BarCharts
+### Lesson19B_BarCharts_Histograms
 
-### Lesson20_Improving_plots_1
-
-### Lesson21_ImprovingPlots_2
-
-* Generate and customize **bar charts**.
-* Visualize distributions of categorical variables using **count plots**.
-* Read, interpret and generate **boxplots**.
-* Several variations of boxplots, **boxen plots** and **violin plots**.
+* Create a bar plot with the `barplot` function from `seaborn`.
+* Remove missing values from data frames with the `dropna` function.
+* Create a histogram for continuous variables with the `distplot` function from `seaborn`.
+* Create a count plot for categorical variables with the `countplot` function from `seaborn`.
