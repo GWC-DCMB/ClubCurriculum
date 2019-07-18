@@ -32,11 +32,14 @@ Topics covered are as follows:
   - Lesson 16: Basic Stats III (Significance Testing, Correlations)
   
 ## Day Four
-  - <del>Lesson 17: Intro to Matplotlib<\del>
-  - Lesson 18: Scatterplots and Line Graphs
-  - Lesson 19: Histograms and Bar Charts
-  - Lesson 20: Improving Plots I - Scatterplots and Line Graphs
-  - Lesson 21: Improving Plots II - Bar Charts, Count Plots & Boxplots
+  - Lesson 17B: Line Graphs
+  - Lesson 18B: Scatterplots
+  - Lesson 19B: Bar Charts and Histograms
+  - <del>Lesson 17: Intro to Matplotlib
+  - <del>Lesson 18: Scatterplots and Line Graphs
+  - <del>Lesson 19: Histograms and Bar Charts
+  - <del>Lesson 20: Improving Plots I - Scatterplots and Line Graphs
+  - <del>Lesson 21: Improving Plots II - Bar Charts, Count Plots & Boxplots
 
 Curriculum designed and revised by Marlena Duda. Lessons created by Marlena Duda, Kelly Sovacool, Zena Lapp, Logan Walker, and Negar Faranzeh. 
 
