@@ -1,6 +1,6 @@
 # Data Science Summer Experience
 
-This repository contains the curriculum materials for our Data Science Summer Experience. 
+This repository contains the curriculum materials for our Data Science Summer Experience. Curriculum designed and revised by Marlena Duda. Lessons created by Marlena Duda, Kelly Sovacool, Zena Lapp, Logan Walker, and Negar Faranzeh. 
 
 The Lessons directory contains live coding demos meant to introduce each topic in ~15 minute interactive mini-lessons. These lessons are delivered in Jupyter Notebooks in a "fill in the blanks" style. Instructors will guide students through each lesson and the students will follow along, filling in the blanks on their own documents as we go. 
 
@@ -44,7 +44,7 @@ Topics covered are as follows:
 ## Day Five
   - [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
 
-Curriculum designed and revised by Marlena Duda. Lessons created by Marlena Duda, Kelly Sovacool, Zena Lapp, Logan Walker, and Negar Faranzeh. 
+
 
 # Important Links
 - [Entrance survey](https://forms.gle/gXLj62T7bEMFipdv7)
