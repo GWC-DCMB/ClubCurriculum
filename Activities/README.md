@@ -1,5 +1,17 @@
 # Activities
 
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Activities](#activities)
+	- [Starters](#starters)
+		- [Day 2: Variables, Types, & Lists](#day-2-variables-types-lists)
+		- [Day 3: Pandas](#day-3-pandas)
+		- [Day 4: Numpy & Statistics](#day-4-numpy-statistics)
+		- [Day 5: Plotting](#day-5-plotting)
+	- [Screenless](#screenless)
+
+<!-- /TOC -->
+
 ## Starters
 
 [Google Slides](https://docs.google.com/presentation/d/1ZxkFTjXVx5EyF-P2CG3gV0U3dUskxzWrQPV9D9oA1Og/edit?usp=sharing)
