@@ -50,3 +50,4 @@ Topics covered are as follows:
 - [Activities](Activities/README.md)
 - [Reference Sheet](reference.md)
 - [Additional Resources](resources.md)
+- [Exit survey](https://forms.gle/uF74RVQXjnJ6xzLy8)
