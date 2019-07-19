@@ -50,3 +50,4 @@ Topics covered are as follows:
 - [Starter Activities](https://docs.google.com/presentation/d/1ZxkFTjXVx5EyF-P2CG3gV0U3dUskxzWrQPV9D9oA1Og/edit?usp=sharing)
 - [STEMinist parade](https://github.com/GWC-DCMB/ozobotLessons/tree/master/steminist_parade)
 - [Reference Sheet](reference.md)
+- [Additional Resources](resources.md)
