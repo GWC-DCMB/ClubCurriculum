@@ -1,5 +1,7 @@
 # Additional Resources
 
+## Online learning
+
 - [Khan Academy](https://alison.com/course/introduction-to-programming-with-python): Introduction to Programming with Python
 - [LearnPython](https://www.learnpython.org/): Interactive Python tutorials
 - [Project Rosalind](http://rosalind.info/problems/locations/): Introductory Python programming and bioinformatics problems
@@ -21,3 +23,9 @@
 - [Code Abbey](http://www.codeabbey.com/)
 - [Codesters](https://www.codesters.com/)
 - [Girls Who Code at UM DCMB Challenge Questions](https://github.com/GWC-DCMB/challengeQuestions)
+
+## Other events
+
+- [U of M](https://lsa.umich.edu/wise/k-12-students-families/summer-camps.html) summer camps
+- [Girls Who Code (national)](https://girlswhocode.com/locations/) clubs & camps
+- [Kode with Klossy](https://www.kodewithklossy.com)
