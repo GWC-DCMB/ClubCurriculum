@@ -76,6 +76,7 @@ to the screen? Check all that apply.
 
 ## Screenless
 
+- Yoga with Saige
 - Free time with Ozobots
 - [STEMinist parade](https://github.com/GWC-DCMB/ozobotLessons/tree/master/steminist_parade) with Ozobots
 - Zip-Zap-Zop
