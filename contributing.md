@@ -106,3 +106,5 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
     git merge branch-name master
     ```
     In the merge commit message, be sure to reference any issues that the pull request resolves (e.g. `Resolves #10`) so the issue is closed automatically.
+    
+    If no more work will be done on that branch, you can delete it on Github to reduce clutter.
