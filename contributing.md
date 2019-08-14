@@ -25,6 +25,12 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
 
 ## Creating or editing
 
+1. Move to the ClubCurriculum directory on your computer
+
+    ```
+    cd ClubCurriculum
+    ```
+
 1. Create a new branch for your feature
     
     Be sure to give it a short, descriptive name.
