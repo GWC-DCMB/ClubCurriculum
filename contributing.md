@@ -25,6 +25,12 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
 
 ## Creating or editing
 
+1. Move to the ClubCurriculum directory on your computer
+
+    ```
+    cd ClubCurriculum
+    ```
+
 1. Create a new branch for your feature
     
     Be sure to give it a short, descriptive name.
@@ -56,8 +62,15 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
     git push origin new-branch-name
     ```
 
+    If you forget the branch name you can find it using the command:
+    ```
+    git branch
+    ```
+
 1. Open a pull request
-    1. Open the [repo page in your web browser](https://github.com/GWC-DCMB/ClubCurriculum) and click `new pull request`.
+    1. Open the [repo page in your web browser](https://github.com/GWC-DCMB/ClubCurriculum)
+    1. If you want to see what the modifications look like before opening a pull request, you can go to the document you modified and change the branch to the left of the file name. 
+    1. Go to the pull requests tab and click `new pull request`.
     1. Select your branch name to compare to master.
     1. Create the pull request.
     1. Assign a reviewer.
