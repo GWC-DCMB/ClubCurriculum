@@ -1,15 +1,29 @@
 # How to Contribute
 
-We use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) to manage our workflow. This means all new lessons, practices, and edits should be made in separate branches -- not the `master` branch.
+We use the [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) workflow to make our lives easier. This means all new lessons, practices, and edits should be made in separate branches -- not the `master` branch.
 
-If you run into problems, contact [Kelly](mailto:sovacool@umich.edu).
+If you have questions or run into problems at any point, contact [Kelly](mailto:sovacool@umich.edu).
 
-## Creating or editing
+## Setup
 
-1. If you haven't already, clone this repo
+If you haven't already:
+
+1. Configure git on your local machine
+
+    Use the same email that is associated with your GitHub account.
+    ```
+    git config --global user.name "Firstname Lastname"
+    git config --global user.email "you@email.com"
+    ```
+
+1. Clone this repo
     ```
     git clone https://github.com/GWC-DCMB/ClubCurriculum
     ```
+
+If you need a refresher, Software Carpentry has a lesson on [Version Control with Git](http://swcarpentry.github.io/git-novice/).
+
+## Creating or editing
 
 1. Create a new branch for your feature
     
@@ -28,7 +42,10 @@ If you run into problems, contact [Kelly](mailto:sovacool@umich.edu).
 1. Commit & push your changes
     ```
     git add notebook-name.ipynb
+    git commit -m "Edit lesson XX"
     ```
+    (Take a look at this [style guide](https://chris.beams.io/posts/git-commit/) for writing good commit messages.)
+    
     If you're pushing your branch for the first time, you'll have to set the upstream:
     ```
     git push --set-upstream origin new-branch-name
@@ -63,9 +80,10 @@ If you run into problems, contact [Kelly](mailto:sovacool@umich.edu).
 1. Commit & push changes if needed
     ```
     git add notebook-name.ipynb
-    git commit -m "Revise lesson XX <more description here>"
+    git commit -m "Revise lesson XX"
     git push
     ```
+
 1. Merge the pull request when you're happy with it
 
     Either press the `merge` button on Github in your web browser,
