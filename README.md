@@ -8,6 +8,7 @@ The Practices directory contains practice exercises for students to spend ~30 mi
 
 Both Lessons and Practices directories contain Keys subdirectories that contain correctly completed versions of each lesson/practice exercise.
 
+See [contributing instructions](contributing.md) for creating, editing, & reviewing lessons.
 
 # Important Links
 - [Activities](Activities/README.md)
