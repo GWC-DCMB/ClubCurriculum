@@ -2,7 +2,7 @@
 
 We use [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) to manage our workflow. This means all new lessons, practices, and edits should be made in separate branches -- not the `master` branch.
 
-If you run into problems, contact [Kelly](https://github.com/kelly-sovacool).
+If you run into problems, contact [Kelly](mailto:sovacool@umich.edu).
 
 ## Creating or editing
 
@@ -12,6 +12,7 @@ If you run into problems, contact [Kelly](https://github.com/kelly-sovacool).
     ```
 
 1. Create a new branch for your feature
+    
     Be sure to give it a short, descriptive name.
     ```
     git checkout -b new-branch-name
@@ -66,10 +67,11 @@ If you run into problems, contact [Kelly](https://github.com/kelly-sovacool).
     git push
     ```
 1. Merge the pull request when you're happy with it
+
     Either press the `merge` button on Github in your web browser,
     or do it from the command line:
     ```
     git checkout master
     git merge branch-name master
     ```
-    In the merge commit message, be sure to reference any issues that the pull request resolves (e.g. `Resolves #1`) so the issue is closed automatically.
+    In the merge commit message, be sure to reference any issues that the pull request resolves (e.g. `Resolves #10`) so the issue is closed automatically.
