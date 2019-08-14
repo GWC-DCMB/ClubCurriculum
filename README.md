@@ -1,6 +1,6 @@
-# Data Science Summer Experience
+# Club Curriculum
 
-This repository contains the curriculum materials for our Data Science Summer Experience. Curriculum designed and revised by Marlena Duda. Lessons created by Marlena Duda, Kelly Sovacool, Zena Lapp, Logan Walker, and Negar Faranzeh.
+This repository contains the curriculum materials for our weekly club.
 
 The Lessons directory contains live coding demos meant to introduce each topic in ~15 minute interactive mini-lessons. These lessons are delivered in Jupyter Notebooks in a "fill in the blanks" style. Instructors will guide students through each lesson and the students will follow along, filling in the blanks on their own documents as we go.
 
@@ -8,46 +8,9 @@ The Practices directory contains practice exercises for students to spend ~30 mi
 
 Both Lessons and Practices directories contain Keys subdirectories that contain correctly completed versions of each lesson/practice exercise.
 
-Topics covered are as follows:
-
-## Day One
-  - Lesson 01: Setup with Google Colaboratory [(View in GitHub)](Lessons/Lesson01_Setup.md)
-  - Lesson 02: Hello World and Intro to Variables
-  - Lesson 03: More Variables and Types
-  - Lesson 04: Intro to Lists
-  - Lesson 05: List Indexing and Subsetting
-  - Lesson 06: Intro to 2D Lists
-  - Lesson 07: 2D List Indexing and Subsetting
-
-## Day Two
-  - Lesson 08: Intro to Functions and Methods
-  - Lesson 09: Intro to Packages
-  - Lesson 10: Intro to Pandas
-  - Lesson 11: Reading in Data with Pandas
-  - Lesson 12: Slicing and Dicing DataFrames with Pandas
-
-## Day Three
-  - Lesson 13: Intro to Numpy
-  - Lesson 14: Basic Stats I (Mean, Median, etc.)
-  - Lesson 15: Basic Stats II (Count statistics, Percentages)
-  - Lesson 16: Basic Stats III (Significance Testing, Correlations)
-
-## Day Four
-  - Lesson 17B: Line Graphs
-  - Lesson 18B: Scatterplots
-  - Lesson 19B: Bar Charts and Histograms
-  - <del>Lesson 17: Intro to Matplotlib
-  - <del>Lesson 18: Scatterplots and Line Graphs
-  - <del>Lesson 19: Histograms and Bar Charts
-  - <del>Lesson 20: Improving Plots I - Scatterplots and Line Graphs
-  - <del>Lesson 21: Improving Plots II - Bar Charts, Count Plots & Boxplots
-
-## Day Five
-  - [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
 
 # Important Links
-- [Entrance survey](https://forms.gle/gXLj62T7bEMFipdv7)
 - [Activities](Activities/README.md)
 - [Reference Sheet](reference.md)
 - [Additional Resources](resources.md)
-- [Exit survey](https://forms.gle/uF74RVQXjnJ6xzLy8)
+- [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
