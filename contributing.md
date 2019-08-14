@@ -62,6 +62,11 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
     git push origin new-branch-name
     ```
 
+    If you forget the branch name you can find it using the command:
+    ```
+    git branch
+    ```
+
 1. Open a pull request
     1. Open the [repo page in your web browser](https://github.com/GWC-DCMB/ClubCurriculum) and click `new pull request`.
     1. Select your branch name to compare to master.
