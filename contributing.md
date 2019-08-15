@@ -106,7 +106,7 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
     git checkout master
     git merge branch-name master
     ```
-    In the merge commit message, reference any issues that the pull request resolves so the issue is closed automatically. 
+    In the merge commit message, reference any [issues](https://github.com/GWC-DCMB/ClubCurriculum/issues) (our To-Do list) that the pull request resolves so the issue is closed automatically. 
     For example, the [commit](https://github.com/GWC-DCMB/ClubCurriculum/commit/e871017fc77fe2023f2488d3c18ae4baaee5b03f) message I wrote when adding this file was `Add contributing instructions (Resolves #11)`.
     
     If no more work will be done on that branch, you can delete it on Github to reduce clutter.
