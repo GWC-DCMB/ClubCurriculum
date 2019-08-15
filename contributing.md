@@ -6,6 +6,8 @@ If you have questions or run into problems at any point, contact [Kelly](mailto:
 
 ## Setup
 
+### Git
+
 If you haven't already:
 
 1. Configure git on your local machine
@@ -22,6 +24,13 @@ If you haven't already:
     ```
 
 If you need a refresher, Software Carpentry has a lesson on [Version Control with Git](http://swcarpentry.github.io/git-novice/).
+
+### Dependencies
+
+We teach with [Google Colab](https://colab.research.google.com), which has all of our dependencies already installed. 
+However, we recommend editing the notebooks by running [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) on your local machine. 
+The minimum required dependencies are listed in the [environment file](environment.yml). 
+You're welcome to use your package manager of choice (Kelly's recommendation: [conda](https://docs.conda.io/en/latest/miniconda.html)).
 
 ## Creating or editing
 
