@@ -33,7 +33,7 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
 
 1. Create a new branch for your feature
     
-    Be sure to give it a short, descriptive name.
+    Give it a short, descriptive name.
     ```
     git checkout -b new-branch-name
     ```
@@ -43,7 +43,8 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
     jupyter lab notebook-name.ipynb
     ```
     Be sure to save them from jupyter!
-    If you're creating a new lesson or practice, it's easiest to edit the lesson key, then copy the key to the lesson folder and remove any blanks that you want to be filled in during the live coding demo.
+    If you're creating a new lesson or practice, it's easiest to edit the lesson key, 
+    then copy the key to the lesson folder and remove any blanks that you want to be filled in during the live coding demo.
 
 1. Commit & push your changes
     ```
@@ -62,9 +63,9 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
     git push origin new-branch-name
     ```
 
-    If you forget the branch name you can find it using the command:
+    If you forget the branch name, you can list existing branches using the command:
     ```
-    git branch
+    git branch --list
     ```
 
 1. Open a pull request
@@ -105,6 +106,7 @@ If you need a refresher, Software Carpentry has a lesson on [Version Control wit
     git checkout master
     git merge branch-name master
     ```
-    In the merge commit message, be sure to reference any issues that the pull request resolves (e.g. `Resolves #10`) so the issue is closed automatically.
+    In the merge commit message, reference any issues that the pull request resolves so the issue is closed automatically. 
+    For example, the [commit](https://github.com/GWC-DCMB/ClubCurriculum/commit/e871017fc77fe2023f2488d3c18ae4baaee5b03f) message I wrote when adding this file was `Add contributing instructions (Resolves #11)`.
     
     If no more work will be done on that branch, you can delete it on Github to reduce clutter.
