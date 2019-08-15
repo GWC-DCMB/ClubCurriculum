@@ -3,7 +3,6 @@ channels:
   - conda-forge
   - bioconda
   - defaults
-  - r
 dependencies:
   - appnope=0.1.0=py37_1000
   - attrs=19.1.0=py_0
