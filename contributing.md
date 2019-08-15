@@ -128,4 +128,4 @@ You're welcome to use your package manager of choice (Kelly's recommendation: [c
     tips = pd.read_csv(path + 'SampleData/tips.csv')
     ```
     Don't use local filepaths (e.g. `pd.read_csv('../SampleData/tips.csv')`), because we live-code in Google Colab.
-    
+- If you come across legacy references to mounting Google Drive, please remove them. We previously used this feature, but have decided to use https links to raw github files instead (see above bullet).
