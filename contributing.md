@@ -119,3 +119,13 @@ You're welcome to use your package manager of choice (Kelly's recommendation: [c
     For example, the [commit](https://github.com/GWC-DCMB/ClubCurriculum/commit/e871017fc77fe2023f2488d3c18ae4baaee5b03f) message I wrote when adding this file was `Add contributing instructions (Resolves #11)`.
     
     If no more work will be done on that branch, you can delete it on Github to reduce clutter.
+
+## Misc. Notes
+
+- If you need to read in a dataset, Pandas can read https links to raw github files. Example:
+    ```
+    path = 'https://raw.githubusercontent.com/GWC-DCMB/ClubCurriculum/master/'
+    tips = pd.read_csv(path + 'SampleData/tips.csv')
+    ```
+    Don't use local filepaths (e.g. `pd.read_csv('../SampleData/tips.csv')`), because we live-code in Google Colab.
+    
