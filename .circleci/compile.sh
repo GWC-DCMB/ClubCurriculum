@@ -1,11 +1,6 @@
 #!/bin/sh
+set -e
 
-function install() {
-    sudo apt-get update
-    sudo apt-get install texlive-xetex pandoc
-    sudo pip install --upgrade pip
-    sudo pip install jupyter
-}
 function compile() {
     last_compile_commit=$(git log --oneline | grep "Compile PDFs " | head -n 1 | cut -f 1 -d " ")
     notebooks=$(git diff --name-only $last_compile_commit HEAD | grep "Keys.*ipynb")
@@ -26,7 +21,5 @@ function commit() {
     fi
 }
 
-install
-set -e
 compile
 commit
