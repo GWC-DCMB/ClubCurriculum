@@ -3,7 +3,7 @@
 last_compile_commit=$(git log --oneline | grep "Compile PDFs " | head -n 1 | cut -f 1 -d " ")
 notebooks_changed=$(git diff --name-only $last_compile_commit HEAD | grep "Keys.*ipynb")
 if [ notebooks_changed ]
-do
+then
     # install dependences
     sudo apt-get update
     sudo apt-get install texlive-xetex pandoc
