@@ -4,6 +4,7 @@ set -e
 function install() {
     sudo apt-get update
     sudo apt-get install texlive-xetex pandoc
+    pip install --upgrade pip
     sudo pip install jupyter
 }
 function compile() {
