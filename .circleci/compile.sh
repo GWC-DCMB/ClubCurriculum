@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 jupyter nbconvert --to pdf --output-dir='Lessons/Keys/pdf' Lessons/Keys/*.ipynb
 jupyter nbconvert --to pdf --output-dir='Practices/Keys/pdf' Practices/Keys/*.ipynb
 git config user.email "kellysovacool@gmail.com"
