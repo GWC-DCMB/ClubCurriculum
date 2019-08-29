@@ -26,4 +26,4 @@ then
         git commit -m "Compile PDFs [ci skip]"
         git push
     fi
-done
+fi
