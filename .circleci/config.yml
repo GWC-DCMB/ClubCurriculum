@@ -14,5 +14,4 @@ jobs:
       - image: circleci/python:3.7.2
     steps:
       - checkout
-      - run: bash .circleci/install.sh
       - run: bash .circleci/compile.sh
