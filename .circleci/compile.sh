@@ -1,5 +1,4 @@
 #!/bin/sh
-set -e
 
 function install() {
     sudo apt-get update
@@ -28,5 +27,6 @@ function commit() {
 }
 
 install
+set -e
 compile
 commit
