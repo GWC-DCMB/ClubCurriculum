@@ -5,7 +5,7 @@ workflows:
       - build:
           filters:
             branches:
-              only: develop
+              only: master
 
 version: 2
 jobs:
