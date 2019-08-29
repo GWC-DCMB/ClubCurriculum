@@ -15,11 +15,5 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install dependencies
-          command: bash .circleci/install.sh
-      - run:
           name: compile PDFs
           command: bash .circleci/compile.sh
-      - run:
-          name: commit changes
-          command: bash .circleci/commit.sh
