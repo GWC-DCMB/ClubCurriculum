@@ -4,6 +4,13 @@ We use the [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows
 
 If you have questions or run into problems at any point, contact [Kelly](mailto:sovacool@umich.edu).
 
+## Table of Contents
+
+- [Setup](#setup)
+- [Creating or editing](#creating-or-editing)
+- [Reviewing](#reviewing)
+- [Notes](#notes)
+
 ## Setup
 
 ### Git
