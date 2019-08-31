@@ -129,3 +129,4 @@ You're welcome to use your package manager of choice (Kelly's recommendation: [c
     ```
     Don't use local filepaths (e.g. `pd.read_csv('../SampleData/tips.csv')`), because we live-code in Google Colab.
 - If you come across legacy references to mounting Google Drive, please remove them. We previously used this feature, but have decided to use https links to raw github files instead (see above bullet).
+- Every Key (filename starts with `KEY_`) should show the output of all cells, while the output cells of every regular Lesson and Practice should be empty. Make sure Keys work by running all cells in Jupyter Lab by clicking `Run` > `Run All Cells`. To remove the output cells from a notebook, click `Edit` > `Clear All Outputs`.
