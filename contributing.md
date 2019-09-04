@@ -143,11 +143,13 @@ The highlights:
 ### File paths
 
 If you need to read in a dataset, Pandas can read https links to raw github files. Example:
-    ```
-    path = 'https://raw.githubusercontent.com/GWC-DCMB/ClubCurriculum/master/'
-    tips = pd.read_csv(path + 'SampleData/tips.csv')
-    ```
-    Don't use local filepaths (e.g. `pd.read_csv('../SampleData/tips.csv')`), because we live-code in Google Colab.
+
+```
+path = 'https://raw.githubusercontent.com/GWC-DCMB/ClubCurriculum/master/'
+tips = pd.read_csv(path + 'SampleData/tips.csv')
+```
+    
+Don't use local filepaths (e.g. `pd.read_csv('../SampleData/tips.csv')`), because we live-code in Google Colab.
 
 If you come across legacy references to mounting Google Drive, please remove them. We previously used this feature, but have decided to use https links to raw github files instead (see above bullet).
 
