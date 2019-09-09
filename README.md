@@ -19,7 +19,7 @@ See [contributing instructions](contributing.md) for creating, editing, & review
 
 # Lessons & Activities
 
-1. Intro to Computers & Data Science [[Google Slides](https://drive.google.com/open?id=1wXjk-6O6pSbIMd9L4a_dMmZN5To1KH9yZVtTzKDPw8A)]
+- Intro to Computers & Data Science [[Google Slides](https://drive.google.com/open?id=1wXjk-6O6pSbIMd9L4a_dMmZN5To1KH9yZVtTzKDPw8A)]
 1. Jupyter Setup
 1. Hello World
 1. Variables & Types
