@@ -11,7 +11,40 @@ Both Lessons and Practices directories contain Keys subdirectories that contain 
 See [contributing instructions](contributing.md) for creating, editing, & reviewing lessons.
 
 # Important Links
+
 - [Activities](Activities/README.md)
 - [Reference Sheet](reference.md)
 - [Additional Resources](resources.md)
 - [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
+
+# Lessons & Activities
+
+1. Intro to Computers & Data Science [[Google Slides](https://drive.google.com/open?id=1wXjk-6O6pSbIMd9L4a_dMmZN5To1KH9yZVtTzKDPw8A)]
+1. Jupyter Setup
+1. Hello World
+1. Variables & Types
+1. Lists
+1. Indexing
+1. 2D lists
+1. 2D list indexing
+1. Logic
+1. Conditionals
+1. For loops I
+1. For loops II
+1. Functions & Methods
+1. Packages
+1. Pandas Intro
+1. Reading data with Pandas
+1. Subsetting data with Pandas I
+1. Subsetting data with Pandas II
+1. Writing your own functions
+1. Numpy Intro
+1. Basic Stats I (Averages)
+1. Basic Stats II (Percents)
+1. Basic Stats III (Correlation)
+1. Basic Stats IV (Significance)
+1. Plotting I
+1. Plotting II
+1. Plotting III
+1. ML Classification (SVM)
+1. ML Clustering (k-means)
