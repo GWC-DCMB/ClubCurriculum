@@ -9,7 +9,9 @@
 
     <img src="../Figures/01colab.png" style="width: 500px;"/>
 
-1. Search for the GWC-DCMB Jupyter Intro notebook:
+1. Click on the GitHub tab.
+
+1. Search for `GWC-DCMB/ClubCurriculum/Practices/Practice01_Jupyter-Setup.ipynb`:
 
 1. When the notebook loads, you should see something like this:
 
