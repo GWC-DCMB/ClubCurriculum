@@ -3,7 +3,9 @@
 
 Welcome to Girls Who Code! We're so excited you're here.
 
-Throughout the club, we will be writing Python code with Google Colab. Colab lets us run our code online 
+Throughout the club, we will be writing Python code with Google Colab. 
+Colab lets us run our code online so we don't have to install anything on our computers. 
+Follow the instructions below to get started.
 
 1. Go to Google Colab: https://colab.research.google.com
 
@@ -19,10 +21,12 @@ Throughout the club, we will be writing Python code with Google Colab. Colab let
 
 1. When the notebook loads, you should see something like this:
 
-    <img src="../Figures/08helloworld.png" style="width: 500px;"/>
+    <img src="../Figures/03notebook.png" style="width: 500px;"/>
 
 1. Press the button `Copy to Drive` so you can save your work.
 
 Congrats, you're ready to start coding!
 
-Whenever you want to open a notebook, you can click `File` > `Open Notebook` and search for the GitHub file. Be sure to save your work to Drive!
+Whenever you want to open a notebook, you can click `File` > `Open Notebook` and search for the GitHub file in `GWC-DCMB/ClubCurriculum`. 
+Alternatively, you can open a blank notebook by clicking `File` > `New Python 3 notebook`. 
+Be sure to save your work to Drive!
