@@ -27,6 +27,6 @@ Follow the instructions below to get started.
 
 Congrats, you're ready to start coding!
 
-Whenever you want to open a notebook, you can click `File` > `Open Notebook` and search for the GitHub file in `GWC-DCMB/ClubCurriculum`. 
+Whenever you want to open a notebook, you can click `File` > `Open Notebook` and search for the file from GitHub in `GWC-DCMB/ClubCurriculum`.
 Alternatively, you can open a blank notebook by clicking `File` > `New Python 3 notebook`. 
 Be sure to save your work to Drive!
