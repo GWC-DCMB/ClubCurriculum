@@ -61,7 +61,7 @@ You're welcome to use your package manager of choice (Kelly's recommendation: [c
     Be sure to save them from jupyter!
     If you're creating a new lesson or practice, it's easiest to edit the lesson key, 
     then copy the key to the lesson folder and remove any blanks that you want to be filled in during the live coding demo.
-    Don't forget to run all cells in Key files and clear output from regular Lessons & Practices ([instructions]](#cell-output)).
+    Don't forget to run all cells in Key files and clear output from regular Lessons & Practices ([instructions](#cell-output)).
 
 1. Commit & push your changes
     ```
