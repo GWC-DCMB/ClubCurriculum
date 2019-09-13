@@ -13,7 +13,7 @@ Follow the instructions below to get started.
 
 1. You should see a screen with a search box like this:  
 
-    <img src="../Figures/01colab.png" style="width: 500px;"/>
+    <img src="https://raw.githubusercontent.com/GWC-DCMB/ClubCurriculum/master/Figures/01colab.png" style="width: 500px;"/>
 
 1. Click on the GitHub tab.
 
@@ -21,7 +21,7 @@ Follow the instructions below to get started.
 
 1. When the notebook loads, you should see something like this:
 
-    <img src="../Figures/03notebook.png" style="width: 500px;"/>
+    <img src="https://raw.githubusercontent.com/GWC-DCMB/ClubCurriculum/master/Figures/03notebook.png" style="width: 500px;"/>
 
 1. Press the button `Copy to Drive` so you can save your work.
 
