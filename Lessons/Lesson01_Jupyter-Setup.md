@@ -27,6 +27,8 @@ Follow the instructions below to get started.
 
 Congrats, you're ready to start coding!
 
-Whenever you want to open a notebook, you can click `File` > `Open Notebook` and search for the file from GitHub in `GWC-DCMB/ClubCurriculum`.
-Alternatively, you can open a blank notebook by clicking `File` > `New Python 3 notebook`. 
-Be sure to save your work to Drive!
+Some notes:
+- Whenever you want to open a new notebook, you can click `File` > `Open Notebook` and search for the file from GitHub in `GWC-DCMB/ClubCurriculum`.
+- Alternatively, you can open a blank notebook by clicking `File` > `New Python 3 notebook`. 
+- Be sure to save your work to Drive!
+- If you want to open a notebook you have already saved to Drive, go to your [Google Drive](https://drive.google.com/) and open the folder `Colab Notebooks`. It should be in there!
