@@ -20,7 +20,8 @@ Starter Activities: [Google Slides](https://drive.google.com/open?id=1TA5UVyp1QS
     - Write down nouns on pieces of paper. Fold them in half and put them in a bowl.
     - Split into 2 teams. 
     - There are 3 rounds to this game, all with the same team. Each round consists of sub-rounds of 1 minute. Team 1 will go for one minute, then Team 2 will go for one minute, etc. A different person is a clue -iver for each sub-round (until everyone has had a turn, then you start over again). The goal of each 1 minute sub-round is for the clue giver to try to get their team to guess as many words as possible. They pick out one word at a time. Each round lasts until all of the words have been guessed. There are different clues the clue-giver can give each round:
-    - _Round 1: Verbal Cues._ The clue-giver picks a word from the bowl and describes it to their teammates without saying the actual word. Once the word is correctly guessed, they can select another word from the bowl. This continues until 1 minute is up. If the last word isn't guessed, it's placed back in the bowl.
-    - _Round 2: Charades._ Similar, the clue-giver has to act the word out with no talking.
-    - _Round 3: One Word._ Similar, but the clue-giver can only say 1 word.
+        - _Round 1: Verbal Cues._ The clue-giver picks a word from the bowl and describes it to their teammates without saying the actual word. Once the word is correctly guessed, they can select another word from the bowl. This continues until 1 minute is up. If the last word isn't guessed, it's placed back in the bowl.
+        - _Round 2: Charades._ Similar, the clue-giver has to act the word out with no talking.
+        - _Round 3: One Word._ Similar, but the clue-giver can only say 1 word.
   - Points: 1 point for each word guessed correctly. Add up all points for all rounds. The team with the most points wins.
+
