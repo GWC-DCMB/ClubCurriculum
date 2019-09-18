@@ -2,6 +2,8 @@
 
 Starter Activities: [Google Slides](https://drive.google.com/open?id=1TA5UVyp1QSUdsD0yXZiYIj7_vxRyEcagqvuUHJbfT8w)
 
+- Entourage
+    - Rock paper scissors with someone (best of 1 or 3). Whoever loses gets behind person who won. Keep going until one person wins it all.
 - Yoga with [Saige](https://github.com/saigerutherford)
 - Free time with Ozobots
 - [STEMinist parade](https://github.com/GWC-DCMB/ozobotLessons/tree/master/steminist_parade) with Ozobots
