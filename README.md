@@ -16,6 +16,7 @@ See [contributing instructions](contributing.md) for creating, editing, & review
 - [Reference Sheet](reference.md)
 - [Additional Resources](resources.md)
 - [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
+- [Live Coding Instructions](https://gist.github.com/zmml/402f7d362112bcea1e19eee63bcac0ee)
 
 # Lessons & Activities
 
