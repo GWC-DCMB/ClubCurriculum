@@ -8,19 +8,23 @@ The Practices directory contains practice exercises for students to spend ~30 mi
 
 Both Lessons and Practices directories contain Keys subdirectories that contain correctly completed versions of each lesson/practice exercise.
 
-See [contributing instructions](contributing.md) for creating, editing, & reviewing lessons.
+## Links for facilitators
 
-# Important Links
-
-- [Activities](Activities/README.md)
-- [Reference Sheet](reference.md)
-- [Additional Resources](resources.md)
-- [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
+- [Starter Activities [Google Slides]](https://drive.google.com/open?id=1TA5UVyp1QSUdsD0yXZiYIj7_vxRyEcagqvuUHJbfT8w)
+- [Screenless Activities](https://github.com/gwc-dcmb/gwc-dcmb/activities)
 - [Live Coding Instructions](https://gist.github.com/zmml/402f7d362112bcea1e19eee63bcac0ee)
+- [Contrubuting Instructions](https://github.com/gwc-dcmb/gwc-dcmb/CONTRIBUTING.md)
+- [License](https://github.com/gwc-dcmb/gwc-dcmb/LICENSE.md)
 
-# Lessons & Activities
+## Links for students
 
-- Intro to Computers & Data Science [[Google Slides](https://drive.google.com/open?id=1wXjk-6O6pSbIMd9L4a_dMmZN5To1KH9yZVtTzKDPw8A)]
+- [Reference Sheet](reference.md)
+- [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
+- [Additional Learning Resources](https://github.com/gwc-dcmb/gwc-dcmb/resources.md)
+
+## Lessons & Activities
+
+- [Intro to Computers & Data Science [Google Slides]](https://drive.google.com/open?id=1wXjk-6O6pSbIMd9L4a_dMmZN5To1KH9yZVtTzKDPw8A)
 1. Jupyter Setup
 1. Hello World
 1. Variables & Types
