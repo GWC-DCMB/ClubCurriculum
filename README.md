@@ -25,21 +25,21 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 ## Lessons
 
 - [Intro to Computers & Data Science [Google Slides]](https://drive.google.com/open?id=1wXjk-6O6pSbIMd9L4a_dMmZN5To1KH9yZVtTzKDPw8A)
-1. [Jupyter Setup](Lesssons/Lesson01_Jupyter-Setup.md)
-1. [Hello World](Lesssons/Lesson02_HelloWorld_Variables.ipynb)
-1. [Variables & Types](Lesssons/Lesson03_Variables_Types.ipynb)
-1. [Lists Intro](Lesssons/Lesson04_Lists_Intro.ipynb)
-1. [Lists Indexing](Lesssons/Lesson05_Indexing.ipynb)
-1. [2D Lists](Lesssons/Lesson06_2D_Lists.ipynb)
-1. [2D List Indexing](Lesssons/Lesson07_2D_Lists_Indexing.ipynb)
-1. [Logic](Lesssons/Lesson08_Logic.ipynb)
-1. [Conditionals](Lesssons/Lesson09_Conditionals.ipynb)
-1. [For Loops I](Lesssons/Lesson10_Loops1.ipynb)
-1. [For Loops II](Lesssons/Lesson11_Loops2.ipynb)
-1. [Functions & Methods](Lesssons/Lesson12_Functions_and_Methods.ipynb)
-1. [Packages](Lesssons/Lesson13_Packages.ipynb)
-1. [Pandas Intro](Lesssons/Lesson14_Pandas-Intro.ipynb)
-1. [Reading Data with Pandas](Lesssons/Lesson15_Pandas-Reading.ipynb)
+1. [Jupyter Setup](Lesson/Lesson01_Jupyter-Setup.md)
+1. [Hello World](Lesson/Lesson02_HelloWorld_Variables.ipynb)
+1. [Variables & Types](Lesson/Lesson03_Variables_Types.ipynb)
+1. [Lists Intro](Lesson/Lesson04_Lists_Intro.ipynb)
+1. [Lists Indexing](Lesson/Lesson05_Indexing.ipynb)
+1. [2D Lists](Lesson/Lesson06_2D_Lists.ipynb)
+1. [2D List Indexing](Lesson/Lesson07_2D_Lists_Indexing.ipynb)
+1. [Logic](Lesson/Lesson08_Logic.ipynb)
+1. [Conditionals](Lesson/Lesson09_Conditionals.ipynb)
+1. [For Loops I](Lesson/Lesson10_Loops1.ipynb)
+1. [For Loops II](Lesson/Lesson11_Loops2.ipynb)
+1. [Functions & Methods](Lesson/Lesson12_Functions_and_Methods.ipynb)
+1. [Packages](Lesson/Lesson13_Packages.ipynb)
+1. [Pandas Intro](Lesson/Lesson14_Pandas-Intro.ipynb)
+1. [Reading Data with Pandas](Lesson/Lesson15_Pandas-Reading.ipynb)
 1. Subsetting Data with Pandas I
 1. Subsetting Data with Pandas II
 1. Writing Functions
@@ -48,8 +48,8 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 1. Basic Stats II - Percents
 1. Basic Stats III - Correlation
 1. Basic Stats IV - Significance
-1. [Plotting - Line Graphs](Lesssons/Lesson24_LineGraphs.ipynb)
-1. [Plotting - Scatterplots](Lesssons/Lesson25_Scatterplots.ipynb)
-1. [Plotting - Barplots & Histograms](Lesssons/Lesson26_BarCharts_Histograms.ipynb)
+1. [Plotting - Line Graphs](Lesson/Lesson24_LineGraphs.ipynb)
+1. [Plotting - Scatterplots](Lesson/Lesson25_Scatterplots.ipynb)
+1. [Plotting - Barplots & Histograms](Lesson/Lesson26_BarCharts_Histograms.ipynb)
 1. Machine Learning - Classification
 1. Machine Learning - Clustering
