@@ -1,24 +1,19 @@
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
+
 version: 2
 jobs:
   build:
-    docker: 
-        - image: circleci/python:3.7.2
+    docker:
+      - image: circleci/python:3.7.2
     steps:
       - checkout
       - run:
-          name: install dependencies
-          command: |
-                sudo apt-get update
-                sudo apt-get install texlive-xetex pandoc
-                sudo pip install jupyter
-      - run:
-          name: compile PDFs 
-          command: |
-              jupyter nbconvert --to pdf --output-dir='Lessons/Keys/pdf' Lessons/Keys/*.ipynb
-              jupyter nbconvert --to pdf --output-dir='Practices/Keys/pdf' Practices/Keys/*.ipynb
-              git config user.email "kellysovacool@gmail.com"
-              git config user.name "Kelly Sovacool"
-              git add Lessons/Keys/pdf Practices/Keys/pdf
-              git commit -m "Compile PDFs [ci skip]"
-              git push
-
+          name: compile PDFs
+          command: bash .circleci/compile.sh
