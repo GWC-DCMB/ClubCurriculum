@@ -5,7 +5,6 @@ Usage:
     python strip_colab_metadata.py filename.ipynb
 """
 import json
-import os
 import sys
 
 filename = sys.argv[1]
