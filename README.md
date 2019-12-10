@@ -40,17 +40,17 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 1. [Packages](Lessons/Lesson13_Packages.ipynb)
 1. [Pandas Intro](Lessons/Lesson14_Pandas-Intro.ipynb)
 1. [Reading Data with Pandas](Lessons/Lesson15_Pandas-Reading.ipynb)
-1. Subsetting Data with Pandas I
-1. Subsetting Data with Pandas II
-1. Dictionaries
+1. [Subsetting Data with Pandas I](Lessons/Lesson16_Pandas-Subsetting-I.ipynb)
+1. [Subsetting Data with Pandas II](Lessons/Lesson17_Pandas-Subsetting-II.ipynb)
+1. [Dictionaries](Lessons/Lesson18_Dictionaries.ipynb)
 1. Writing Functions
 1. Numpy Intro
 1. Basic Stats I - Averages
 1. Basic Stats II - Percents
 1. Basic Stats III - Correlation
 1. Basic Stats IV - Significance
-1. [Plotting - Line Graphs](Lessons/Lesson24_LineGraphs.ipynb)
-1. [Plotting - Scatterplots](Lessons/Lesson25_Scatterplots.ipynb)
-1. [Plotting - Barplots & Histograms](Lessons/Lesson26_BarCharts_Histograms.ipynb)
+1. [Plotting - Line Graphs](Lessons/Lesson25_LineGraphs.ipynb)
+1. [Plotting - Scatterplots](Lessons/Lesson26_Scatterplots.ipynb)
+1. [Plotting - Barplots & Histograms](Lessons/Lesson27_BarCharts_Histograms.ipynb)
 1. Machine Learning - Classification
 1. Machine Learning - Clustering
