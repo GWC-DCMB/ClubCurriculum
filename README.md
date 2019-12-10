@@ -12,7 +12,7 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 
 - [Starter Activities [Google Slides]](https://drive.google.com/open?id=1TA5UVyp1QSUdsD0yXZiYIj7_vxRyEcagqvuUHJbfT8w)
 - [Screenless Activities](https://github.com/GWC-DCMB/GWC-DCMB/tree/master/activities)
-- [Live Coding Instructions](https://gist.github.com/zmml/402f7d362112bcea1e19eee63bcac0ee)
+- [Live Coding Instructions](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/live-coding-tips.md)
 - [Contrubuting Instructions](https://github.com/gwc-dcmb/gwc-dcmb/CONTRIBUTING.md)
 - [License](https://github.com/gwc-dcmb/gwc-dcmb/LICENSE.md)
 
@@ -42,6 +42,7 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 1. [Reading Data with Pandas](Lessons/Lesson15_Pandas-Reading.ipynb)
 1. Subsetting Data with Pandas I
 1. Subsetting Data with Pandas II
+1. Dictionaries
 1. Writing Functions
 1. Numpy Intro
 1. Basic Stats I - Averages
