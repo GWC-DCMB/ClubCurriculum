@@ -10,9 +10,12 @@ then
     sudo pip install --upgrade pip
     sudo pip install jupyter
 
-    # compile PDFs
+
     for file in $notebooks_changed
     do
+        # strip colab metadata & enforce indentation style
+        python strip_colab_metadata.py $file
+        # compile PDFs
         outdir=$(echo $file | sed "s|\(^.*/\).*$|\1|")pdf/
         jupyter nbconvert --to pdf --output-dir=$outdir $file
     done
