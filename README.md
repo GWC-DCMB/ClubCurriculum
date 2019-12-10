@@ -42,6 +42,7 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 1. [Reading Data with Pandas](Lessons/Lesson15_Pandas-Reading.ipynb)
 1. Subsetting Data with Pandas I
 1. Subsetting Data with Pandas II
+1. Dictionaries
 1. Writing Functions
 1. Numpy Intro
 1. Basic Stats I - Averages
