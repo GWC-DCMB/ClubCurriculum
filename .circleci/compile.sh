@@ -1,7 +1,7 @@
 #!/bin/sh
 
-last_compile_commit=$(git log --oneline | grep "Compile PDFs " | head -n 1 | cut -f 1 -d " ")
-notebooks_changed=$(git diff --name-only $last_compile_commit HEAD | grep "Keys.*ipynb")
+last_compile_commit=$(git log --oneline | grep "[ci skip]" | head -n 1 | cut -f 1 -d " ")
+notebooks_changed=$(git diff --name-only $last_compile_commit HEAD | grep "*ipynb")
 if [ notebooks_changed ]
 then
     # install dependences
@@ -15,8 +15,11 @@ then
         # strip colab metadata & enforce indentation style
         python strip_colab_metadata.py $file
         # compile PDFs
-        outdir=$(echo $file | sed "s|\(^.*/\).*$|\1|")pdf/
-        jupyter nbconvert --to pdf --output-dir=$outdir $file
+        if [[ *"KEY"* == $file ]]
+        then
+            outdir=$(echo $file | sed "s|\(^.*/\).*$|\1|")pdf/
+            jupyter nbconvert --to pdf --output-dir=$outdir $file
+        fi
     done
 
     # commit new PDFs
