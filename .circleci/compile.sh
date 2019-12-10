@@ -9,7 +9,7 @@ then
     sudo apt-get install texlive-xetex pandoc
     sudo pip install --upgrade pip
     sudo pip install jupyter
-    
+
     for file in $notebooks_changed
     do
         # strip colab metadata & enforce indentation style
@@ -25,6 +25,6 @@ then
     git add */_Keys/pdf/
     git commit -m "Compile PDFs [ci skip]"
     git add *
-    git commit -m "Strip colab metadata & enforce JupyterLab indentation style [ci skip]"
+    git commit -m "Strip colab metadata & enforce ipynb format [ci skip]"
     git push
 fi
