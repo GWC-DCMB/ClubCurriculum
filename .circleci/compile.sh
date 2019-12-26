@@ -10,9 +10,11 @@ then
     sudo pip install --upgrade pip
     sudo pip install jupyter
 
-    # compile PDFs
     for file in $notebooks_changed
     do
+        # strip colab metadata & enforce indentation style
+        python strip_colab_metadata.py $file
+        # compile PDFs
         outdir=$(echo $file | sed "s|\(^.*/\).*$|\1|")pdf/
         jupyter nbconvert --to pdf --output-dir=$outdir $file
     done
@@ -20,7 +22,9 @@ then
     # commit new PDFs
     git config user.email "kellysovacool@gmail.com"
     git config user.name "Kelly Sovacool"
-    git add Lessons/Keys/pdf Practices/Keys/pdf
+    git add */_Keys/pdf/
     git commit -m "Compile PDFs [ci skip]"
+    git add *
+    git commit -m "Strip colab metadata & enforce ipynb format [ci skip]"
     git push
 fi

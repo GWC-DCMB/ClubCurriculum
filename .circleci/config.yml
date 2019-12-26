@@ -15,5 +15,5 @@ jobs:
     steps:
       - checkout
       - run:
-          name: compile PDFs
+          name: compile PDFs & enforce ipynb format
           command: bash .circleci/compile.sh
