@@ -27,4 +27,5 @@ jobs:
         python .circleci/strip_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
     - name: Compile PDFs
       run: |
-        jupyter nbconvert --to pdf --output-dir='pdf' *.ipynb
+        jupyter nbconvert --to pdf --output-dir=Lessons/_Keys/pdf Lessons/_Keys/*.ipynb
+        jupyter nbconvert --to pdf --output-dir=Practices/_Keys/pdf Practices/_Keys/*.ipynb
