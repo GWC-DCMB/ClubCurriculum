@@ -7,11 +7,11 @@ on:
   pull_request:
     branches:
     - master
-    
+
 jobs:
   build:
 
-    runs-on: [ubuntu-latest, macos-latest]
+    runs-on: ubuntu-latest
     strategy:
       max-parallel: 4
       matrix:
@@ -30,7 +30,7 @@ jobs:
         pip install jupyter
     - name: Clean colab metadata
       run: |
-        python .circleci/strip_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
+        python .github/strip_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
     - name: Compile PDFs
       run: |
         jupyter nbconvert --to pdf --output-dir=Lessons/_Keys/pdf Lessons/_Keys/*.ipynb

@@ -2,7 +2,7 @@
 Remove 'colab' item from 'metadata' and enforce JupyterLab's indentation style.
 
 Usage:
-    python strip_colab_metadata.py [filename1.ipynb filename2.ipynb ...]
+    python clean_colab_metadata.py [filename1.ipynb filename2.ipynb ...]
 """
 import json
 import sys
