@@ -1,5 +1,8 @@
 # Club Curriculum
 
+[![build](https://github.com/GWC-DCMB/ClubCurriculum/workflows/build/badge.svg)](https://github.com/GWC-DCMB/ClubCurriculum/actions)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
+
 This repository contains the curriculum materials for our weekly club.
 
 The Lessons directory contains live coding demos meant to introduce each topic in ~15 minute interactive mini-lessons. These lessons are delivered in Jupyter Notebooks in a "fill in the blanks" style. Instructors will guide students through each lesson and the students will follow along, filling in the blanks on their own documents as we go.
