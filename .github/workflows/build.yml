@@ -1,0 +1,42 @@
+name: build
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: [3.7]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install texlive-xetex pandoc
+        pip install jupyter
+    - name: Clean colab metadata
+      run: |
+        python .github/clean_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
+    - name: Compile PDFs
+      run: |
+        jupyter nbconvert --to pdf --output-dir=Lessons/_Keys/pdf Lessons/_Keys/*.ipynb
+        jupyter nbconvert --to pdf --output-dir=Practices/_Keys/pdf Practices/_Keys/*.ipynb
+    - name: Commit & push
+      run: |
+        git add Lessons/ Practices/
+        git commit -m "🧹Compile PDFs & clean colab metadata" || echo "No changes to commit"
+        git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
