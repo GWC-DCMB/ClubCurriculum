@@ -6,7 +6,7 @@ The Lessons directory contains live coding demos meant to introduce each topic i
 
 The Practices directory contains practice exercises for students to spend ~30 minutes to solidify skills taught in each mini-lesson. These practices are delivered in Jupyter Notebooks in a "fill in the blanks" style. Students will work with partners/groups to fill in blanks within the documents, using code from the corresponding lesson as a resource. Instructors will work closely with students to help them complete and understand each practice.
 
-Both Lessons and Practices directories contain `_Keys` subdirectories with correctly completed versions of each exercise. Sometimes GitHub doesn't render Jupyter notebooks in a timely manner, so we use continuous integration to compile all notebook keys to PDFs. Take a look at the [Lesson](Lessons/_Keys/pdf) & [Practice](Lessons/_Keys/pdf) Key PDFs if you only want to view them quickly in your browser.
+Both Lessons and Practices directories contain `_Keys` subdirectories with correctly completed versions of each exercise. Sometimes GitHub doesn't render Jupyter notebooks in a timely manner, so we use continuous integration to compile all notebook keys to PDFs. Take a look at the [Lesson](Lessons/_Keys/pdf) & [Practice](Practices/_Keys/pdf) Key PDFs if you only want to view them quickly in your browser.
 
 ## Links for facilitators
 
