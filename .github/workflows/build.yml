@@ -1,0 +1,48 @@
+name: build
+
+on:
+  push:
+    branches:
+    - master
+    paths:
+    - Lessons/*.ipynb
+    - Lessons/_Keys/*.ipynb
+    - Practices/*.ipynb
+    - Practices/_Keys/*.ipynb
+  pull_request:
+    branches:
+    - master
+    paths:
+    - Lessons/*.ipynb
+    - Lessons/_Keys/*.ipynb
+    - Practices/*.ipynb
+    - Practices/_Keys/*.ipynb
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: [3.7]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Clean colab metadata
+      run: |
+        python .github/clean_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
+        git add Lessons/ Practices/
+        git commit -m "🧹Clean colab metadata" || echo "No changes to commit"
+        git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
+    - name: Compile PDFs
+      run: |
+        jupyter nbconvert --to pdf --output-dir=Lessons/_Keys/pdf Lessons/_Keys/*.ipynb
+        jupyter nbconvert --to pdf --output-dir=Practices/_Keys/pdf Practices/_Keys/*.ipynb
+        git add Lessons/ Practices/
+        git commit -m "📄Compile PDFs" || echo "No changes to commit"
+        git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
