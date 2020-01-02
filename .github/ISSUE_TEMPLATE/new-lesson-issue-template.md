@@ -2,7 +2,7 @@
 name: New Lesson & Practice issue template
 about: Default issue template for creating & editing Lessons & Practices
 title: 'Lesson XX: lesson title'
-labels: ''
+labels: 'curriculum development'
 assignees: ''
 
 ---
