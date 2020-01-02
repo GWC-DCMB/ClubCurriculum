@@ -28,7 +28,7 @@ jobs:
         python-version: [3.7]
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v1
       with:
@@ -40,10 +40,10 @@ jobs:
         pip install jupyter nbconvert
     - name: Configure git
       run: |
+        echo "Branch ${GITHUB_REF#refs/heads/}"
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        echo "Branch ${GITHUB_REF##*/}"
-        git pull ${GITHUB_REF##*/}
+        git pull ${GITHUB_REF#refs/heads/}
     - name: Clean colab metadata
       run: |
         python .github/clean_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
