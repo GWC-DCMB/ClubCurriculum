@@ -38,16 +38,22 @@ jobs:
         sudo apt-get update
         sudo apt-get install texlive-xetex pandoc
         pip install jupyter nbconvert
+    - name: Configure git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
     - name: Clean colab metadata
       run: |
         python .github/clean_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
         git add Lessons/ Practices/
         git commit -m "🧹 Clean colab metadata" || echo "No changes to commit"
-        git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
     - name: Compile PDFs
       run: |
         jupyter nbconvert --to pdf --output-dir=Lessons/_Keys/pdf Lessons/_Keys/*.ipynb
         jupyter nbconvert --to pdf --output-dir=Practices/_Keys/pdf Practices/_Keys/*.ipynb
         git add Lessons/ Practices/
         git commit -m "📄 Compile PDFs" || echo "No changes to commit"
-        git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
