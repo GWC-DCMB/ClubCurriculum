@@ -36,7 +36,7 @@ jobs:
         git config --local user.name "GitHub Action"
     - name: Clean colab metadata
       run: |
-        python .github/clean_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
+        python .github/clean_colab_metadata.py Lessons/*.ipynb Lessons/_Keys/*.ipynb Practices/*.ipynb Practices/_Keys/*.ipynb
         git add Lessons/ Practices/
         git commit -m "🧹 Clean colab metadata" || echo "No changes to commit"
     - name: Compile PDFs
