@@ -9,14 +9,6 @@ on:
     - Lessons/_Keys/*.ipynb
     - Practices/*.ipynb
     - Practices/_Keys/*.ipynb
-  pull_request:
-    branches:
-    - master
-    paths:
-    - Lessons/*.ipynb
-    - Lessons/_Keys/*.ipynb
-    - Practices/*.ipynb
-    - Practices/_Keys/*.ipynb
 
 jobs:
   build:
@@ -40,10 +32,8 @@ jobs:
         pip install jupyter nbconvert
     - name: Configure git
       run: |
-        echo "Branch ${GITHUB_REF#refs/heads/}"
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git pull ${GITHUB_REF#refs/heads/}
     - name: Clean colab metadata
       run: |
         python .github/clean_colab_metadata.py Lessons/_Keys/*.ipynb Practices/_Keys/*.ipynb
