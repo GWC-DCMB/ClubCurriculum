@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
+    paths:
+      - Lessons/*.ipynb
+      - Lessons/_Keys/*.ipynb
+      - Practices/*.ipynb
+      - Practices/_Keys/*.ipynb
 
 jobs:
   build:
