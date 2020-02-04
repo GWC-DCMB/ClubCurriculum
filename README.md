@@ -16,14 +16,14 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 - [Starter Activities [Google Slides]](https://drive.google.com/open?id=1TA5UVyp1QSUdsD0yXZiYIj7_vxRyEcagqvuUHJbfT8w)
 - [Screenless Activities](https://github.com/GWC-DCMB/GWC-DCMB/tree/master/activities)
 - [Live Coding Instructions](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/live-coding-tips.md)
-- [Contrubuting Instructions](https://github.com/gwc-dcmb/gwc-dcmb/CONTRIBUTING.md)
-- [License](https://github.com/gwc-dcmb/gwc-dcmb/LICENSE.md)
+- [Contrubuting Instructions](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/CONTRIBUTING.md)
+- [License](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/LICENSE.md)
 
 ## Links for students
 
 - [Reference Sheet](reference.md)
 - [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
-- [Additional Learning Resources](https://github.com/gwc-dcmb/gwc-dcmb/resources.md)
+- [Additional Learning Resources](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/resources.md)
 
 ## Lessons
 
