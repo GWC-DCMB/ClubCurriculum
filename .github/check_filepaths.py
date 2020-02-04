@@ -34,10 +34,10 @@ def main():
         else:
             is_correct_all = False
 
-    unmatched_files = itertools.chain.from_iterable(file_map.values())
+    unmatched_files = sorted(itertools.chain.from_iterable(file_map.values()))
     if unmatched_files:
         print("⚠️  Warning: detected files without matching lessons:")
-        for file in sorted(unmatched_files):
+        for file in unmatched_files:
             print("    ", file)
     if is_correct_all:
         print("🙌🏻 All lesson notebooks have corresponding practices & keys!")
