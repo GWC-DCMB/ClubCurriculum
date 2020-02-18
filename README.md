@@ -1,6 +1,7 @@
 # Club Curriculum
 
 [![build](https://github.com/GWC-DCMB/ClubCurriculum/workflows/build/badge.svg)](https://github.com/GWC-DCMB/ClubCurriculum/actions)
+[![check](https://github.com/GWC-DCMB/ClubCurriculum/workflows/check/badge.svg)](https://github.com/GWC-DCMB/ClubCurriculum/actions)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 This repository contains the curriculum materials for our weekly club.
