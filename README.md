@@ -1,6 +1,7 @@
 # Club Curriculum
 
 [![build](https://github.com/GWC-DCMB/ClubCurriculum/workflows/build/badge.svg)](https://github.com/GWC-DCMB/ClubCurriculum/actions)
+[![check](https://github.com/GWC-DCMB/ClubCurriculum/workflows/check/badge.svg)](https://github.com/GWC-DCMB/ClubCurriculum/actions)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 This repository contains the curriculum materials for our weekly club.
@@ -45,13 +46,13 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 1. [Reading Data with Pandas](Lessons/Lesson15_Pandas-Reading.ipynb)
 1. [Subsetting Data with Pandas I](Lessons/Lesson16_Pandas-Subsetting-I.ipynb)
 1. [Subsetting Data with Pandas II](Lessons/Lesson17_Pandas-Subsetting-II.ipynb)
-1. [Dictionaries](Lessons/Lesson18_Dictionaries.ipynb)
-1. Writing Functions
-1. Numpy Intro
-1. Basic Stats I - Averages
-1. Basic Stats II - Percents
+1. [Dictionaries](Lessons/Lesson18_Dictionaries.ipynb)  
+1. [Writing Functions](Lessons/Lesson19_Functions.ipynb)  
+1. [Numpy Intro](/Lessons/Lesson20_Numpy_Intro.ipynb)  
+1. [Basic Stats I - Averages](Lessons/Lesson21_Basic_Stats_I_Averages.ipynb)  
+1. [Basic Stats II - Percents](Lessons/Lesson22_Basic_Stats_II_Percents.ipynb)  
 1. Basic Stats III - Correlation
-1. Basic Stats IV - Significance
+1. [Basic Stats IV - Significance](/Lessons/Lesson24_Basic_Stats_IV_Significance.ipynb)
 1. [Plotting - Line Graphs](Lessons/Lesson25_LineGraphs.ipynb)
 1. [Plotting - Scatterplots](Lessons/Lesson26_Scatterplots.ipynb)
 1. [Plotting - Barplots & Histograms](Lessons/Lesson27_BarCharts_Histograms.ipynb)
