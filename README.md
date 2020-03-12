@@ -51,7 +51,7 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 1. [Numpy Intro](/Lessons/Lesson20_Numpy_Intro.ipynb)  
 1. [Basic Stats I - Averages](Lessons/Lesson21_Basic_Stats_I_Averages.ipynb)  
 1. [Basic Stats II - Percents](Lessons/Lesson22_Basic_Stats_II_Percents.ipynb)  
-1. Basic Stats III - Correlation
+1. [Basic Stats III - Correlation](Lessons/Lesson23_Basic_Stats_III_Correlations.ipynb)
 1. [Basic Stats IV - Significance](/Lessons/Lesson24_Basic_Stats_IV_Significance.ipynb)
 1. [Plotting - Line Graphs](Lessons/Lesson25_LineGraphs.ipynb)
 1. [Plotting - Scatterplots](Lessons/Lesson26_Scatterplots.ipynb)
