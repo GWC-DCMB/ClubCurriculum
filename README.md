@@ -18,7 +18,7 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 - [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
 - [Additional Learning Resources](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/resources.md)
 
-## Lessons
+## Curriculum
 
 |   | Lesson Video | Lesson Notebook | Practice Notebook |
 |---|---|---|---|
