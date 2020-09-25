@@ -12,14 +12,6 @@ The Practices directory contains practice exercises for students to spend ~30 mi
 
 Both Lessons and Practices directories contain `_Keys` subdirectories with correctly completed versions of each exercise. Sometimes GitHub doesn't render Jupyter notebooks in a timely manner, so we use continuous integration to compile all notebook keys to PDFs. Take a look at the [Lesson](Lessons/_Keys/pdf) & [Practice](Practices/_Keys/pdf) Key PDFs if you only want to view them quickly in your browser.
 
-## Links for facilitators
-
-- [Starter Activities [Google Slides]](https://drive.google.com/open?id=1TA5UVyp1QSUdsD0yXZiYIj7_vxRyEcagqvuUHJbfT8w)
-- [Screenless Activities](https://github.com/GWC-DCMB/GWC-DCMB/tree/master/activities)
-- [Live Coding Instructions](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/live-coding-tips.md)
-- [Contrubuting Instructions](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/CONTRIBUTING.md)
-- [License](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/LICENSE.md)
-
 ## Links for students
 
 - [Reference Sheet](reference.md)
@@ -28,33 +20,30 @@ Both Lessons and Practices directories contain `_Keys` subdirectories with corre
 
 ## Lessons
 
-- [Intro to Computers & Data Science [Google Slides]](https://drive.google.com/open?id=1wXjk-6O6pSbIMd9L4a_dMmZN5To1KH9yZVtTzKDPw8A)
-1. [Jupyter Setup](Lessons/Lesson01_Jupyter-Setup.md)
-1. [Hello World](Lessons/Lesson02_HelloWorld_Variables.ipynb)
-1. [Variables & Types](Lessons/Lesson03_Variables_Types.ipynb)
-1. [Lists Intro](Lessons/Lesson04_Lists_Intro.ipynb)
-1. [Lists Indexing](Lessons/Lesson05_Indexing.ipynb)
-1. [2D Lists](Lessons/Lesson06_2D_Lists.ipynb)
-1. [2D List Indexing](Lessons/Lesson07_2D_Lists_Indexing.ipynb)
-1. [Logic](Lessons/Lesson08_Logic.ipynb)
-1. [Conditionals](Lessons/Lesson09_Conditionals.ipynb)
-1. [For Loops I](Lessons/Lesson10_Loops1.ipynb)
-1. [For Loops II](Lessons/Lesson11_Loops2.ipynb)
-1. [Functions & Methods](Lessons/Lesson12_Functions_and_Methods.ipynb)
-1. [Packages](Lessons/Lesson13_Packages.ipynb)
-1. [Pandas Intro](Lessons/Lesson14_Pandas-Intro.ipynb)
-1. [Reading Data with Pandas](Lessons/Lesson15_Pandas-Reading.ipynb)
-1. [Subsetting Data with Pandas I](Lessons/Lesson16_Pandas-Subsetting-I.ipynb)
-1. [Subsetting Data with Pandas II](Lessons/Lesson17_Pandas-Subsetting-II.ipynb)
-1. [Dictionaries](Lessons/Lesson18_Dictionaries.ipynb)  
-1. [Writing Functions](Lessons/Lesson19_Functions.ipynb)  
-1. [Numpy Intro](/Lessons/Lesson20_Numpy_Intro.ipynb)  
-1. [Basic Stats I - Averages](Lessons/Lesson21_Basic_Stats_I_Averages.ipynb)  
-1. [Basic Stats II - Percents](Lessons/Lesson22_Basic_Stats_II_Percents.ipynb)  
-1. [Basic Stats III - Correlation](Lessons/Lesson23_Basic_Stats_III_Correlations.ipynb)
-1. [Basic Stats IV - Significance](/Lessons/Lesson24_Basic_Stats_IV_Significance.ipynb)
-1. [Plotting - Line Graphs](Lessons/Lesson25_LineGraphs.ipynb)
-1. [Plotting - Scatterplots](Lessons/Lesson26_Scatterplots.ipynb)
-1. [Plotting - Barplots & Histograms](Lessons/Lesson27_BarCharts_Histograms.ipynb)
-1. Machine Learning - Classification
-1. Machine Learning - Clustering
+|   | Lesson Video | Lesson Notebook | Practice Notebook |
+|---|---|---|---|
+| 1 |   | None, just watch the video. | [Practice01 Jupyter-Setup](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice01_Jupyter-Setup.ipynb) |
+| 2 |   | [Lesson02 HelloWorld Variables](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson02_HelloWorld_Variables.ipynb) | [Practice02 HelloWorld Variables](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice02_HelloWorld_Variables.ipynb) |
+| 3 |   | [Lesson03 Variables Types](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson03_Variables_Types.ipynb) | [Practice03 Variables Types](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice03_Variables_Types.ipynb) |
+| 4 |   | [Lesson04 Lists Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson04_Lists_Intro.ipynb) | [Practice04 Lists Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice04_Lists_Intro.ipynb) |
+| 5 |   | [Lesson05 Indexing](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson05_Indexing.ipynb) | [Practice05 Indexing](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice05_Indexing.ipynb) |
+| 6 |   | [Lesson18 Dictionaries](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson18_Dictionaries.ipynb) | [Practice18 Dictionaries](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice18_Dictionaries.ipynb) |
+| 7 |   | [Lesson08 Logic](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson08_Logic.ipynb) | [Practice08 Logic](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice08_Logic.ipynb) |
+| 8 |   | [Lesson09 Conditionals](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson09_Conditionals.ipynb) | [Practice09 Conditionals](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice09_Conditionals.ipynb) |
+| 9 |   | [Lesson10 Loops1](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson10_Loops1.ipynb) | [Practice10 Loops1](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice10_Loops1.ipynb) |
+| 10 |   | [Lesson11 Loops2](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson11_Loops2.ipynb) | [Practice11 Loops2](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice11_Loops2.ipynb) |
+| 11 |   | [Lesson12 Functions and Methods](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson12_Functions_and_Methods.ipynb) | [Practice12 Functions and Methods](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice12_Functions_and_Methods.ipynb) |
+| 12 |   | [Lesson13 Packages](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson13_Packages.ipynb) | [Practice13 Packages](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice13_Packages.ipynb) |
+| 13 |   | [Lesson14 Pandas-Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson14_Pandas-Intro.ipynb) | [Practice14 Pandas-Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice14_Pandas-Intro.ipynb) |
+| 14 |   | [Lesson15 Pandas-Reading](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson15_Pandas-Reading.ipynb) | [Practice15 Pandas-Reading](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice15_Pandas-Reading.ipynb) |
+| 15 |   | [Lesson16 Pandas-Subsetting-I](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson16_Pandas-Subsetting-I.ipynb) | [Practice16 Pandas-Subsetting-I](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice16_Pandas-Subsetting-I.ipynb) |
+| 16 |   | [Lesson17 Pandas-Subsetting-II](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson17_Pandas-Subsetting-II.ipynb) | [Practice17 Pandas-Subsetting-II](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice17_Pandas-Subsetting-II.ipynb) |
+| 17 |   | [Lesson19 Functions](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson19_Functions.ipynb) | [Practice19 Functions](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice19_Functions.ipynb) |
+| 18 |   | [Lesson20 Numpy Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson20_Numpy_Intro.ipynb) | [Practice20 Numpy Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice20_Numpy_Intro.ipynb) |
+| 19 |   | [Lesson21 Basic Stats I Averages](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson21_Basic_Stats_I_Averages.ipynb) | [Practice21 Basic Stats I Averages](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice21_Basic_Stats_I_Averages.ipynb) |
+| 20 |   | [Lesson22 Basic Stats II Percents](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson22_Basic_Stats_II_Percents.ipynb) | [Practice22 Basic Stats II Percents](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice22_Basic_Stats_II_Percents.ipynb) |
+| 21 |   | [Lesson23 Basic Stats III Correlations](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson23_Basic_Stats_III_Correlations.ipynb) | [Practice23 Basic Stats III Correlations](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice23_Basic_Stats_III_Correlations.ipynb) |
+| 22 |   | [Lesson24 Basic Stats IV Significance](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson24_Basic_Stats_IV_Significance.ipynb) | [Practice24 Basic Stats IV Significance](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice24_Basic_Stats_IV_Significance.ipynb) |
+| 23 |   | [Lesson25 LineGraphs](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson25_LineGraphs.ipynb) | [Practice25 LineGraphs](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice25_LineGraphs.ipynb) |
+| 24 |   | [Lesson26 Scatterplots](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson26_Scatterplots.ipynb) | [Practice26 Scatterplots](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice26_Scatterplots.ipynb) |
+| 25 |   | [Lesson27 BarCharts Histograms](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson27_BarCharts_Histograms.ipynb) | [Practice27 BarCharts Histograms](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice27_BarCharts_Histograms.ipynb) |
