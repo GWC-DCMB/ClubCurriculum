@@ -1,6 +1,6 @@
 # Club Curriculum
 
-This repository links to the curriculum materials for our weekly club.
+Curriculum for our weekly club for high schoolers.
 
 ## Links for students
 
