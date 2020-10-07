@@ -9,6 +9,8 @@ Curriculum for our weekly club for high schoolers.
 
 ## Curriculum
 
+Lesson videos to code along with: [YouTube Playlist](https://www.youtube.com/playlist?list=PLBPH_mMNNCM7XjWb7yxsOQHysbgRoHtF-)
+
 |   | Lesson Video | Lesson Notebook | Practice Notebook |
 |---|---|---|---|
 | 1 |   | None, just watch the video. | [Practice01 Jupyter-Setup](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice01_Jupyter-Setup.ipynb) |
