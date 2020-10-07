@@ -4,16 +4,15 @@ Curriculum for our weekly club for high schoolers.
 
 ## Links for students
 
+- Lesson videos to code along with: [YouTube Playlist](https://www.youtube.com/playlist?list=PLBPH_mMNNCM7XjWb7yxsOQHysbgRoHtF-)
 - [Example presentations](https://drive.google.com/open?id=1Rn10NGdVKYw5c9LaWQHT5BOJnrapmYbdsoBoHqs2myQ)
 - [Additional Learning Resources](https://github.com/GWC-DCMB/GWC-DCMB/blob/master/resources.md)
 
 ## Curriculum
 
-Lesson videos to code along with: [YouTube Playlist](https://www.youtube.com/playlist?list=PLBPH_mMNNCM7XjWb7yxsOQHysbgRoHtF-)
-
 |   | Lesson Video | Lesson Notebook | Practice Notebook |
 |---|---|---|---|
-| 1 |   | None, just watch the video. | [Practice01 Jupyter-Setup](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice01_Jupyter-Setup.ipynb) |
+| 1 | https://youtu.be/plRRJ1zupgI | None, just watch the video. | [Practice01 Jupyter-Setup](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice01_Jupyter-Setup.ipynb) |
 | 2 |   | [Lesson02 HelloWorld Variables](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson02_HelloWorld_Variables.ipynb) | [Practice02 HelloWorld Variables](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice02_HelloWorld_Variables.ipynb) |
 | 3 |   | [Lesson03 Variables Types](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson03_Variables_Types.ipynb) | [Practice03 Variables Types](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice03_Variables_Types.ipynb) |
 | 4 |   | [Lesson04 Lists Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Lessons/Lesson04_Lists_Intro.ipynb) | [Practice04 Lists Intro](https://colab.research.google.com/github/GWC-DCMB/curriculum-notebooks/blob/master/Practices/Practice04_Lists_Intro.ipynb) |
